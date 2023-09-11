@@ -1,0 +1,14 @@
+INFO 2023-09-11 10:18:58,068 autoreload 12604 15120 C:\DEV\EDU\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-11 10:18:58,741 autoreload 7536 15940 Watching for file changes with StatReloader
+INFO 2023-09-11 10:19:08,578 autoreload 7536 15940 C:\DEV\EDU\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-11 10:19:09,277 autoreload 7208 4284 Watching for file changes with StatReloader
+INFO 2023-09-11 10:19:15,096 views 7208 7552 Открыта страница about
+INFO 2023-09-11 10:19:15,096 basehttp 7208 7552 "GET /about/ HTTP/1.1" 200 634
+INFO 2023-09-11 10:19:15,521 views 7208 7552 Открыта главная страница
+INFO 2023-09-11 10:19:15,521 basehttp 7208 7552 "GET / HTTP/1.1" 200 568
+INFO 2023-09-11 10:19:15,919 views 7208 7552 Открыта страница about
+INFO 2023-09-11 10:19:15,920 basehttp 7208 7552 "GET /about/ HTTP/1.1" 200 634
+INFO 2023-09-11 10:19:16,268 views 7208 7552 Открыта главная страница
+INFO 2023-09-11 10:19:16,269 basehttp 7208 7552 "GET / HTTP/1.1" 200 568
+INFO 2023-09-11 10:19:30,690 autoreload 7208 4284 C:\DEV\EDU\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-11 10:19:31,387 autoreload 14832 952 Watching for file changes with StatReloader
