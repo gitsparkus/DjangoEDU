@@ -171,3 +171,5 @@ INFO 2023-09-18 10:49:04,366 autoreload 16944 11888 C:\DEV\EDU\Django\myproject\
 INFO 2023-09-18 10:49:05,075 autoreload 15700 872 Watching for file changes with StatReloader
 INFO 2023-09-18 10:49:06,708 basehttp 15700 9956 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 698
 INFO 2023-09-18 10:49:18,973 basehttp 15700 9956 "GET /lesson3/clientgoods/9/7 HTTP/1.1" 200 604
+INFO 2023-09-18 10:52:59,462 autoreload 10848 12708 Watching for file changes with StatReloader
+INFO 2023-09-18 10:53:08,609 basehttp 10848 13500 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 698
