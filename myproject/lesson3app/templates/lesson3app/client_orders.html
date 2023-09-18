@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказы клиента</title>
+</head>
+<body>
+<h1>Это список заказов клиента {{ client.name }}!</h1>
+{% for order in orders %}
+Заказ {{ order.id }}
+<table>
+    {% for good in order.goods.all %}
+
+    <tr>
+        <td>{{ good.name }}</td>
+        <td>{{ good.description }}</td>
+        <td>{{ good.price }}</td>
+        <td>{{ good.quantity }}</td>
+        <td>{{ good.date_add }}</td>
+    </tr>
+
+    {% endfor %}
+    <tr>
+        <td>Всего:</td>
+        <td>{{ order.total }}</td>
+    </tr>
+</table>
+</br>
+{% endfor %}
+
+</body>
+</html>

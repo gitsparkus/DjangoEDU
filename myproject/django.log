@@ -12,3 +12,162 @@ INFO 2023-09-11 10:19:16,268 views 7208 7552 Открыта главная страница
 INFO 2023-09-11 10:19:16,269 basehttp 7208 7552 "GET / HTTP/1.1" 200 568
 INFO 2023-09-11 10:19:30,690 autoreload 7208 4284 C:\DEV\EDU\Django\myproject\myproject\settings.py changed, reloading.
 INFO 2023-09-11 10:19:31,387 autoreload 14832 952 Watching for file changes with StatReloader
+INFO 2023-09-18 10:02:29,065 autoreload 10148 16432 Watching for file changes with StatReloader
+INFO 2023-09-18 10:02:45,457 autoreload 5784 16332 Watching for file changes with StatReloader
+ERROR 2023-09-18 10:03:24,865 log 5784 16412 Internal Server Error: /lesson3/orders/
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: orders() missing 1 required positional argument: 'client'
+ERROR 2023-09-18 10:03:24,866 basehttp 5784 16412 "GET /lesson3/orders/ HTTP/1.1" 500 64032
+WARNING 2023-09-18 10:03:25,224 log 5784 16412 Not Found: /favicon.ico
+WARNING 2023-09-18 10:03:25,224 basehttp 5784 16412 "GET /favicon.ico HTTP/1.1" 404 2549
+INFO 2023-09-18 10:03:37,951 autoreload 5784 16332 C:\DEV\EDU\Django\myproject\lesson3app\urls.py changed, reloading.
+INFO 2023-09-18 10:03:38,707 autoreload 16656 12116 Watching for file changes with StatReloader
+INFO 2023-09-18 10:04:10,370 autoreload 6560 6224 Watching for file changes with StatReloader
+INFO 2023-09-18 10:04:16,455 basehttp 6560 17256 "GET /lesson3/orders/1 HTTP/1.1" 200 5
+INFO 2023-09-18 10:04:36,414 autoreload 6560 6224 C:\DEV\EDU\Django\myproject\lesson3app\urls.py changed, reloading.
+INFO 2023-09-18 10:04:37,037 autoreload 16432 3228 Watching for file changes with StatReloader
+INFO 2023-09-18 10:04:39,867 basehttp 16432 10540 "GET /lesson3/clientorders/1 HTTP/1.1" 200 5
+INFO 2023-09-18 10:05:04,889 autoreload 16432 3228 C:\DEV\EDU\Django\myproject\lesson3app\urls.py changed, reloading.
+INFO 2023-09-18 10:05:05,580 autoreload 14496 16536 Watching for file changes with StatReloader
+INFO 2023-09-18 10:05:57,687 autoreload 14496 16536 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:05:58,410 autoreload 11296 11120 Watching for file changes with StatReloader
+INFO 2023-09-18 10:07:41,607 autoreload 11296 11120 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:07:42,336 autoreload 16580 16904 Watching for file changes with StatReloader
+INFO 2023-09-18 10:07:45,483 basehttp 16580 17324 "GET /lesson3/clientorders/1 HTTP/1.1" 200 169
+INFO 2023-09-18 10:09:54,212 autoreload 16580 16904 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:09:54,882 autoreload 16628 16584 Watching for file changes with StatReloader
+INFO 2023-09-18 10:10:34,201 autoreload 16628 16584 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:10:34,939 autoreload 16800 852 Watching for file changes with StatReloader
+INFO 2023-09-18 10:10:45,941 autoreload 16800 852 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:10:46,810 autoreload 16884 16580 Watching for file changes with StatReloader
+INFO 2023-09-18 10:12:14,705 autoreload 16884 16580 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:12:15,337 autoreload 13396 2444 Watching for file changes with StatReloader
+ERROR 2023-09-18 10:14:24,724 log 13396 2532 Internal Server Error: /lesson3/clientorders/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: client_orders() got an unexpected keyword argument 'client'
+ERROR 2023-09-18 10:14:24,725 basehttp 13396 2532 "GET /lesson3/clientorders/1 HTTP/1.1" 500 64282
+INFO 2023-09-18 10:14:46,013 autoreload 13396 2444 C:\DEV\EDU\Django\myproject\lesson3app\urls.py changed, reloading.
+INFO 2023-09-18 10:14:46,764 autoreload 13208 16772 Watching for file changes with StatReloader
+INFO 2023-09-18 10:14:47,723 basehttp 13208 7208 "GET /lesson3/clientorders/1 HTTP/1.1" 200 904
+ERROR 2023-09-18 10:17:26,183 log 13208 7208 Internal Server Error: /lesson3/clientorders/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson3app\views.py", line 14, in client_orders
+    return render(request, "lesson3app/client_orders.html", context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-09-18 10:17:26,186 basehttp 13208 7208 "GET /lesson3/clientorders/1 HTTP/1.1" 500 123736
+INFO 2023-09-18 10:18:28,523 basehttp 13208 7208 "GET /lesson3/clientorders/1 HTTP/1.1" 200 3619
+INFO 2023-09-18 10:18:48,353 basehttp 13208 7208 "GET /lesson3/clientorders/1 HTTP/1.1" 200 3380
+INFO 2023-09-18 10:18:58,780 basehttp 13208 7208 "GET /lesson3/clientorders/1 HTTP/1.1" 200 3490
+INFO 2023-09-18 10:19:47,290 basehttp 13208 7208 "GET /lesson3/clientorders/1 HTTP/1.1" 200 10102
+INFO 2023-09-18 10:20:05,614 basehttp 13208 7208 "GET /lesson3/clientorders/2 HTTP/1.1" 200 13618
+INFO 2023-09-18 10:20:32,243 basehttp 13208 7208 "GET /lesson3/clientorders/2 HTTP/1.1" 200 13623
+INFO 2023-09-18 10:20:53,500 basehttp 13208 7208 "GET /lesson3/clientorders/2 HTTP/1.1" 200 13683
+INFO 2023-09-18 10:22:36,141 basehttp 13208 7208 "GET /lesson3/clientorders/2 HTTP/1.1" 200 14463
+INFO 2023-09-18 10:22:51,235 basehttp 13208 7208 "GET /lesson3/clientorders/2 HTTP/1.1" 200 14393
+INFO 2023-09-18 10:23:30,893 basehttp 13208 7208 "GET /lesson3/clientorders/2 HTTP/1.1" 200 14375
+INFO 2023-09-18 10:29:22,395 autoreload 13208 16772 C:\DEV\EDU\Django\myproject\lesson3app\urls.py changed, reloading.
+INFO 2023-09-18 10:29:23,166 autoreload 2840 9544 Watching for file changes with StatReloader
+INFO 2023-09-18 10:31:43,920 autoreload 2840 9544 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:31:44,651 autoreload 5148 16704 Watching for file changes with StatReloader
+INFO 2023-09-18 10:34:27,420 autoreload 5148 16704 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:34:28,086 autoreload 7452 2064 Watching for file changes with StatReloader
+INFO 2023-09-18 10:34:51,726 autoreload 7452 2064 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:34:52,414 autoreload 12916 3956 Watching for file changes with StatReloader
+INFO 2023-09-18 10:35:35,168 autoreload 12916 3956 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:35:35,872 autoreload 14192 3940 Watching for file changes with StatReloader
+INFO 2023-09-18 10:37:28,800 autoreload 14192 3940 C:\DEV\EDU\Django\myproject\lesson3app\urls.py changed, reloading.
+INFO 2023-09-18 10:37:29,518 autoreload 17184 5768 Watching for file changes with StatReloader
+INFO 2023-09-18 10:38:06,616 autoreload 17184 5768 C:\DEV\EDU\Django\myproject\lesson3app\urls.py changed, reloading.
+INFO 2023-09-18 10:38:07,355 autoreload 13836 16920 Watching for file changes with StatReloader
+INFO 2023-09-18 10:38:16,076 basehttp 13836 12640 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 257
+INFO 2023-09-18 10:38:34,315 autoreload 13836 16920 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:38:35,085 autoreload 16532 3928 Watching for file changes with StatReloader
+INFO 2023-09-18 10:38:35,870 basehttp 16532 14352 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 258
+INFO 2023-09-18 10:39:44,533 autoreload 16532 3928 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:39:45,763 autoreload 12956 16456 Watching for file changes with StatReloader
+INFO 2023-09-18 10:39:46,638 basehttp 12956 5648 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 258
+INFO 2023-09-18 10:39:52,344 basehttp 12956 5648 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 258
+INFO 2023-09-18 10:39:56,964 basehttp 12956 5648 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 258
+INFO 2023-09-18 10:41:53,794 autoreload 12956 16456 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:41:54,763 autoreload 6080 6708 Watching for file changes with StatReloader
+INFO 2023-09-18 10:41:57,935 basehttp 6080 4340 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 258
+INFO 2023-09-18 10:42:10,734 basehttp 6080 4340 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 258
+INFO 2023-09-18 10:42:26,158 autoreload 6080 6708 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:42:26,854 autoreload 17304 14160 Watching for file changes with StatReloader
+INFO 2023-09-18 10:42:29,390 basehttp 17304 772 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 258
+INFO 2023-09-18 10:42:41,199 autoreload 17304 14160 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:42:41,919 autoreload 14268 6764 Watching for file changes with StatReloader
+INFO 2023-09-18 10:42:42,754 basehttp 14268 16612 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 258
+INFO 2023-09-18 10:42:57,016 autoreload 14268 6764 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:42:57,764 autoreload 8184 16936 Watching for file changes with StatReloader
+ERROR 2023-09-18 10:43:00,341 log 8184 464 Internal Server Error: /lesson3/clientgoods/2/7
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson3app\views.py", line 22, in client_goods
+    orders = Order.objects.filter(client=client, date_ordered__range=(date(date_start), date(date_end))).order_by('date_ordered')
+TypeError: 'datetime.date' object cannot be interpreted as an integer
+ERROR 2023-09-18 10:43:00,343 basehttp 8184 464 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 500 68771
+INFO 2023-09-18 10:43:20,771 autoreload 8184 16936 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:43:21,624 autoreload 4848 16456 Watching for file changes with StatReloader
+INFO 2023-09-18 10:43:24,038 basehttp 4848 2188 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 258
+INFO 2023-09-18 10:44:59,737 autoreload 4848 16456 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:45:00,554 autoreload 16936 16652 Watching for file changes with StatReloader
+ERROR 2023-09-18 10:45:04,700 log 16936 11428 Internal Server Error: /lesson3/clientgoods/2/7
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson3app\views.py", line 18, in client_goods
+    date_end = date.now()
+AttributeError: type object 'datetime.date' has no attribute 'now'
+ERROR 2023-09-18 10:45:04,701 basehttp 16936 11428 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 500 68161
+INFO 2023-09-18 10:45:22,192 autoreload 16936 16652 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:45:22,892 autoreload 13308 13916 Watching for file changes with StatReloader
+INFO 2023-09-18 10:45:37,908 autoreload 13308 13916 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:45:38,656 autoreload 4640 12712 Watching for file changes with StatReloader
+INFO 2023-09-18 10:45:43,581 basehttp 4640 13304 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 258
+INFO 2023-09-18 10:45:59,278 autoreload 4640 12712 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:46:00,003 autoreload 16944 11888 Watching for file changes with StatReloader
+INFO 2023-09-18 10:46:01,847 basehttp 16944 6764 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 258
+INFO 2023-09-18 10:49:04,366 autoreload 16944 11888 C:\DEV\EDU\Django\myproject\lesson3app\views.py changed, reloading.
+INFO 2023-09-18 10:49:05,075 autoreload 15700 872 Watching for file changes with StatReloader
+INFO 2023-09-18 10:49:06,708 basehttp 15700 9956 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 698
+INFO 2023-09-18 10:49:18,973 basehttp 15700 9956 "GET /lesson3/clientgoods/9/7 HTTP/1.1" 200 604
