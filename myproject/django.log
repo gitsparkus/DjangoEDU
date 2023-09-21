@@ -173,3 +173,679 @@ INFO 2023-09-18 10:49:06,708 basehttp 15700 9956 "GET /lesson3/clientgoods/2/7 H
 INFO 2023-09-18 10:49:18,973 basehttp 15700 9956 "GET /lesson3/clientgoods/9/7 HTTP/1.1" 200 604
 INFO 2023-09-18 10:52:59,462 autoreload 10848 12708 Watching for file changes with StatReloader
 INFO 2023-09-18 10:53:08,609 basehttp 10848 13500 "GET /lesson3/clientgoods/2/7 HTTP/1.1" 200 698
+INFO 2023-09-21 11:20:06,339 autoreload 3100 16448 Watching for file changes with StatReloader
+ERROR 2023-09-21 11:20:30,564 log 3100 2308 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: good() got an unexpected keyword argument 'id'
+ERROR 2023-09-21 11:20:30,566 basehttp 3100 2308 "GET /lesson4/good/1 HTTP/1.1" 500 64092
+WARNING 2023-09-21 11:20:30,790 log 3100 2308 Not Found: /favicon.ico
+WARNING 2023-09-21 11:20:30,790 basehttp 3100 2308 "GET /favicon.ico HTTP/1.1" 404 2657
+INFO 2023-09-21 11:22:26,127 autoreload 3100 16448 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:22:26,830 autoreload 1724 18408 Watching for file changes with StatReloader
+INFO 2023-09-21 11:22:29,460 basehttp 1724 12780 "GET /lesson4/good/1 HTTP/1.1" 200 1008
+INFO 2023-09-21 11:23:04,263 autoreload 1724 18408 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:23:04,955 autoreload 6944 6784 Watching for file changes with StatReloader
+INFO 2023-09-21 11:23:07,371 basehttp 6944 16040 "GET /lesson4/good/1 HTTP/1.1" 200 1008
+INFO 2023-09-21 11:23:33,024 autoreload 6944 6784 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:23:33,743 autoreload 11724 17772 Watching for file changes with StatReloader
+ERROR 2023-09-21 11:23:37,092 log 11724 13136 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 17, in good
+    form = GoodForm(name=good.name)
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'name'
+ERROR 2023-09-21 11:23:37,094 basehttp 11724 13136 "GET /lesson4/good/1 HTTP/1.1" 500 68109
+INFO 2023-09-21 11:23:54,467 autoreload 11724 17772 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:23:55,172 autoreload 15668 8612 Watching for file changes with StatReloader
+ERROR 2023-09-21 11:23:57,045 log 15668 12284 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 19, in good
+    return render(request, "lesson4app/good.html", {'form': form})
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\utils.py", line 96, in as_div
+    return self.render(self.template_name_div)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\utils.py", line 67, in render
+    context = context or self.get_context()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\forms.py", line 322, in get_context
+    top_errors = self.non_field_errors().copy()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\forms.py", line 358, in non_field_errors
+    return self.errors.get(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\forms.py", line 440, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\boundfield.py", line 135, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\forms.py", line 220, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\widgets.py", line 297, in value_from_datadict
+    return data.get(name)
+AttributeError: 'Good' object has no attribute 'get'
+ERROR 2023-09-21 11:23:57,051 basehttp 15668 12284 "GET /lesson4/good/1 HTTP/1.1" 500 159104
+INFO 2023-09-21 11:24:15,946 autoreload 15668 8612 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:24:16,745 autoreload 17148 9468 Watching for file changes with StatReloader
+INFO 2023-09-21 11:25:59,452 autoreload 17148 9468 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:26:00,276 autoreload 15736 18352 Watching for file changes with StatReloader
+INFO 2023-09-21 11:26:10,218 autoreload 15736 18352 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:26:11,076 autoreload 11172 10808 Watching for file changes with StatReloader
+INFO 2023-09-21 11:26:16,681 basehttp 11172 14544 "GET /lesson4/good/1 HTTP/1.1" 200 1021
+INFO 2023-09-21 11:27:33,795 autoreload 11172 10808 C:\DEV\EDU\Django\myproject\lesson4app\forms.py changed, reloading.
+INFO 2023-09-21 11:27:34,561 autoreload 17404 7176 Watching for file changes with StatReloader
+INFO 2023-09-21 11:27:36,810 basehttp 17404 7136 "GET /lesson4/good/1 HTTP/1.1" 200 883
+ERROR 2023-09-21 11:27:41,236 log 17404 7136 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 14, in good
+    good.save()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+ERROR 2023-09-21 11:27:41,242 basehttp 17404 7136 "POST /lesson4/good/1 HTTP/1.1" 500 149379
+INFO 2023-09-21 11:29:18,808 autoreload 17404 7176 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:29:19,502 autoreload 2356 18004 Watching for file changes with StatReloader
+INFO 2023-09-21 11:29:21,937 basehttp 2356 17132 "GET /lesson4/good/1 HTTP/1.1" 200 883
+ERROR 2023-09-21 11:29:24,908 log 2356 17132 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1741, in to_python
+    decimal_value = decimal.Decimal(value)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 16, in good
+    good.save()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1947, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1760, in get_db_prep_save
+    self.to_python(value), self.max_digits, self.decimal_places
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1743, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“name1” value must be a decimal number.']
+ERROR 2023-09-21 11:29:24,914 basehttp 2356 17132 "POST /lesson4/good/1 HTTP/1.1" 500 122776
+INFO 2023-09-21 11:30:02,915 autoreload 2356 18004 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:30:03,609 autoreload 1844 10832 Watching for file changes with StatReloader
+INFO 2023-09-21 11:30:05,736 basehttp 1844 16672 "GET /lesson4/good/1 HTTP/1.1" 200 883
+ERROR 2023-09-21 11:30:08,776 log 1844 16672 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 13, in good
+    good.description = form.cleaned_data['description']
+KeyError: 'description'
+ERROR 2023-09-21 11:30:08,777 basehttp 1844 16672 "POST /lesson4/good/1 HTTP/1.1" 500 69893
+INFO 2023-09-21 11:30:24,199 basehttp 1844 16672 "GET /lesson4/good/1 HTTP/1.1" 200 883
+INFO 2023-09-21 11:31:11,372 autoreload 1844 10832 C:\DEV\EDU\Django\myproject\lesson4app\forms.py changed, reloading.
+INFO 2023-09-21 11:31:12,057 autoreload 6016 6536 Watching for file changes with StatReloader
+INFO 2023-09-21 11:31:16,131 basehttp 6016 6944 "GET /lesson4/good/1 HTTP/1.1" 200 1085
+INFO 2023-09-21 11:31:30,604 autoreload 6016 6536 C:\DEV\EDU\Django\myproject\lesson4app\forms.py changed, reloading.
+INFO 2023-09-21 11:31:31,321 autoreload 17972 17008 Watching for file changes with StatReloader
+INFO 2023-09-21 11:31:33,930 basehttp 17972 1320 "GET /lesson4/good/1 HTTP/1.1" 200 1099
+ERROR 2023-09-21 11:31:38,029 log 17972 1320 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 16, in good
+    good.save()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+ERROR 2023-09-21 11:31:38,035 basehttp 17972 1320 "POST /lesson4/good/1 HTTP/1.1" 500 149486
+INFO 2023-09-21 11:32:02,958 autoreload 17972 17008 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:32:03,650 autoreload 4064 1104 Watching for file changes with StatReloader
+INFO 2023-09-21 11:32:05,338 basehttp 4064 13872 "GET /lesson4/good/1 HTTP/1.1" 200 1099
+ERROR 2023-09-21 11:32:12,075 log 4064 13872 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 16, in good
+    good.save()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+ERROR 2023-09-21 11:32:12,081 basehttp 4064 13872 "POST /lesson4/good/1 HTTP/1.1" 500 149486
+INFO 2023-09-21 11:32:57,904 basehttp 4064 13872 "GET /lesson4/good/1 HTTP/1.1" 200 1099
+INFO 2023-09-21 11:33:07,394 autoreload 4064 1104 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:33:08,095 autoreload 12072 7492 Watching for file changes with StatReloader
+INFO 2023-09-21 11:33:10,987 basehttp 12072 6212 "GET /lesson4/good/1 HTTP/1.1" 200 1099
+ERROR 2023-09-21 11:33:15,641 log 12072 6212 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 16, in good
+    good.save()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+ERROR 2023-09-21 11:33:15,646 basehttp 12072 6212 "POST /lesson4/good/1 HTTP/1.1" 500 149486
+INFO 2023-09-21 11:33:37,502 basehttp 12072 6212 "GET /lesson4/good/1 HTTP/1.1" 200 1099
+INFO 2023-09-21 11:33:37,667 autoreload 12072 7492 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:33:38,335 autoreload 5248 17692 Watching for file changes with StatReloader
+INFO 2023-09-21 11:34:03,949 autoreload 5248 17692 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:34:04,655 autoreload 2436 7592 Watching for file changes with StatReloader
+INFO 2023-09-21 11:34:08,889 basehttp 2436 8872 "GET /lesson4/good/1 HTTP/1.1" 200 1099
+ERROR 2023-09-21 11:34:13,446 log 2436 8872 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 15, in good_edit
+    good.save()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+ERROR 2023-09-21 11:34:13,452 basehttp 2436 8872 "POST /lesson4/good/1 HTTP/1.1" 500 149511
+INFO 2023-09-21 11:34:46,803 autoreload 2436 7592 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:34:47,665 autoreload 1816 15128 Watching for file changes with StatReloader
+INFO 2023-09-21 11:34:51,291 basehttp 1816 17704 "GET /lesson4/good/1 HTTP/1.1" 200 1099
+ERROR 2023-09-21 11:34:55,808 log 1816 17704 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 16, in good_edit
+    good.save()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+ERROR 2023-09-21 11:34:55,812 basehttp 1816 17704 "POST /lesson4/good/1 HTTP/1.1" 500 149504
+INFO 2023-09-21 11:35:24,421 autoreload 1816 15128 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:35:25,154 autoreload 11196 5704 Watching for file changes with StatReloader
+INFO 2023-09-21 11:35:28,914 basehttp 11196 4304 "GET /lesson4/good/1 HTTP/1.1" 200 1099
+ERROR 2023-09-21 11:35:32,182 log 11196 4304 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 16, in good_edit
+    good.save()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: lesson4app_good.date_add
+ERROR 2023-09-21 11:35:32,187 basehttp 11196 4304 "POST /lesson4/good/1 HTTP/1.1" 500 149501
+INFO 2023-09-21 11:35:53,613 autoreload 11196 5704 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:35:54,346 autoreload 17620 11896 Watching for file changes with StatReloader
+INFO 2023-09-21 11:35:59,415 basehttp 17620 11624 "GET /lesson4/good/1 HTTP/1.1" 200 1099
+INFO 2023-09-21 11:36:51,057 autoreload 17620 11896 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:36:51,813 autoreload 13296 4588 Watching for file changes with StatReloader
+INFO 2023-09-21 11:36:55,117 basehttp 13296 2860 "POST /lesson4/good/1 HTTP/1.1" 200 1100
+INFO 2023-09-21 11:37:04,000 autoreload 13296 4588 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:37:04,733 autoreload 14380 11248 Watching for file changes with StatReloader
+INFO 2023-09-21 11:37:07,795 basehttp 14380 14280 "GET /lesson4/good/1 HTTP/1.1" 200 1100
+INFO 2023-09-21 11:37:13,333 basehttp 14380 14280 "POST /lesson4/good/1 HTTP/1.1" 200 1100
+INFO 2023-09-21 11:37:40,163 autoreload 14380 11248 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:37:40,895 autoreload 17176 10660 Watching for file changes with StatReloader
+INFO 2023-09-21 11:37:41,233 basehttp 17176 10832 "POST /lesson4/good/1 HTTP/1.1" 200 1100
+INFO 2023-09-21 11:37:44,677 basehttp 17176 10832 "POST /lesson4/good/1 HTTP/1.1" 200 1099
+INFO 2023-09-21 11:37:57,255 autoreload 17176 10660 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:37:57,974 autoreload 18340 14420 Watching for file changes with StatReloader
+INFO 2023-09-21 11:39:44,596 autoreload 18340 14420 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:39:45,314 autoreload 2412 13768 Watching for file changes with StatReloader
+INFO 2023-09-21 11:40:45,315 autoreload 2412 13768 C:\DEV\EDU\Django\myproject\lesson4app\forms.py changed, reloading.
+INFO 2023-09-21 11:40:46,069 autoreload 15064 17856 Watching for file changes with StatReloader
+ERROR 2023-09-21 11:40:48,805 log 15064 4216 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 23, in good_edit
+    request.POST, request.FILES, instance = request.user.userprofilemodel
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute 'userprofilemodel'
+ERROR 2023-09-21 11:40:48,807 basehttp 15064 4216 "GET /lesson4/good/1 HTTP/1.1" 500 72261
+INFO 2023-09-21 11:40:58,343 autoreload 15064 17856 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:40:59,072 autoreload 10452 16528 Watching for file changes with StatReloader
+INFO 2023-09-21 11:41:01,643 basehttp 10452 12952 "GET /lesson4/good/1 HTTP/1.1" 200 1246
+INFO 2023-09-21 11:42:48,607 autoreload 10452 16528 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:42:49,283 autoreload 6260 6816 Watching for file changes with StatReloader
+INFO 2023-09-21 11:47:40,500 autoreload 6260 6816 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:47:41,240 autoreload 10800 17720 Watching for file changes with StatReloader
+INFO 2023-09-21 11:47:44,633 basehttp 10800 15976 "GET /lesson4/good/1 HTTP/1.1" 200 1246
+INFO 2023-09-21 11:48:09,313 basehttp 10800 15976 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 11:48:40,486 basehttp 10800 15976 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 11:52:14,412 autoreload 10800 17720 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 11:52:15,276 autoreload 12480 15136 Watching for file changes with StatReloader
+ERROR 2023-09-21 11:52:18,702 log 12480 16964 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 15, in good_edit
+    fs.save(image.name, image)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\files\storage\base.py", line 38, in save
+    name = self._save(name, content)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\files\storage\filesystem.py", line 110, in _save
+    for chunk in content.chunks():
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\files\base.py", line 60, in chunks
+    data = self.read(chunk_size)
+PermissionError: [Errno 13] Permission denied
+ERROR 2023-09-21 11:52:18,705 basehttp 12480 16964 "POST /lesson4/good/1 HTTP/1.1" 500 83292
+INFO 2023-09-21 11:53:59,882 autoreload 9936 17748 Watching for file changes with StatReloader
+INFO 2023-09-21 11:54:04,808 basehttp 9936 8200 "GET /lesson4/good/1 HTTP/1.1" 200 1247
+ERROR 2023-09-21 11:54:09,909 log 9936 8200 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 15, in good_edit
+    fs.save(image.name, image)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\files\storage\base.py", line 38, in save
+    name = self._save(name, content)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\files\storage\filesystem.py", line 110, in _save
+    for chunk in content.chunks():
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\files\base.py", line 60, in chunks
+    data = self.read(chunk_size)
+PermissionError: [Errno 13] Permission denied
+ERROR 2023-09-21 11:54:09,911 basehttp 9936 8200 "POST /lesson4/good/1 HTTP/1.1" 500 83303
+INFO 2023-09-21 11:55:04,163 autoreload 4640 15488 Watching for file changes with StatReloader
+INFO 2023-09-21 11:55:05,747 basehttp 4640 18224 "GET /lesson4/good/1 HTTP/1.1" 200 1247
+ERROR 2023-09-21 11:55:09,350 log 4640 18224 Internal Server Error: /lesson4/good/1
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\myproject\lesson4app\views.py", line 15, in good_edit
+    fs.save(image.name, image)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\files\storage\base.py", line 38, in save
+    name = self._save(name, content)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\files\storage\filesystem.py", line 110, in _save
+    for chunk in content.chunks():
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\files\base.py", line 60, in chunks
+    data = self.read(chunk_size)
+PermissionError: [Errno 13] Permission denied
+ERROR 2023-09-21 11:55:09,352 basehttp 4640 18224 "POST /lesson4/good/1 HTTP/1.1" 500 83303
+INFO 2023-09-21 11:56:58,189 autoreload 4640 15488 C:\DEV\EDU\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-21 11:56:58,936 autoreload 17520 9936 Watching for file changes with StatReloader
+INFO 2023-09-21 11:57:03,986 basehttp 17520 15528 "GET /lesson4/good/1 HTTP/1.1" 200 1247
+INFO 2023-09-21 11:57:08,432 basehttp 17520 15528 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 11:57:56,496 autoreload 17520 9936 C:\DEV\EDU\Django\myproject\lesson4app\models.py changed, reloading.
+INFO 2023-09-21 11:57:57,199 autoreload 13356 11468 Watching for file changes with StatReloader
+INFO 2023-09-21 11:58:10,877 autoreload 17628 6056 Watching for file changes with StatReloader
+INFO 2023-09-21 11:58:18,508 basehttp 17628 17708 "GET /lesson4/good/1 HTTP/1.1" 200 1246
+INFO 2023-09-21 11:58:39,132 autoreload 17628 6056 C:\DEV\EDU\Django\myproject\lesson4app\models.py changed, reloading.
+INFO 2023-09-21 11:58:39,825 autoreload 17384 4636 Watching for file changes with StatReloader
+INFO 2023-09-21 12:00:02,258 autoreload 13380 17708 Watching for file changes with StatReloader
+INFO 2023-09-21 12:00:04,571 basehttp 13380 18264 "GET /lesson4/good/1 HTTP/1.1" 200 1247
+INFO 2023-09-21 12:00:08,783 basehttp 13380 18264 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 12:00:41,442 basehttp 13380 18264 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 12:01:08,625 autoreload 13380 17708 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 12:01:09,294 autoreload 14200 13880 Watching for file changes with StatReloader
+INFO 2023-09-21 12:01:11,854 basehttp 14200 2708 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 12:01:29,849 autoreload 8376 17676 Watching for file changes with StatReloader
+INFO 2023-09-21 12:01:35,070 basehttp 8376 2980 "GET /lesson4/good/1 HTTP/1.1" 200 1247
+INFO 2023-09-21 12:01:40,196 basehttp 8376 2980 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 12:03:11,513 autoreload 8376 17676 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 12:03:12,215 autoreload 5076 9956 Watching for file changes with StatReloader
+INFO 2023-09-21 12:03:16,186 basehttp 5076 9264 "GET /lesson4/good/1 HTTP/1.1" 200 1247
+INFO 2023-09-21 12:03:25,108 basehttp 5076 9264 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 12:03:56,461 basehttp 5076 9264 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 12:04:45,549 autoreload 5076 9956 C:\DEV\EDU\Django\myproject\lesson4app\models.py changed, reloading.
+INFO 2023-09-21 12:04:46,295 autoreload 16396 7532 Watching for file changes with StatReloader
+INFO 2023-09-21 12:05:04,620 autoreload 920 16880 Watching for file changes with StatReloader
+INFO 2023-09-21 12:05:08,447 basehttp 920 17032 "GET /lesson4/good/1 HTTP/1.1" 200 1247
+INFO 2023-09-21 12:05:13,102 basehttp 920 17032 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 12:06:03,261 autoreload 920 16880 C:\DEV\EDU\Django\myproject\lesson4app\models.py changed, reloading.
+INFO 2023-09-21 12:06:04,055 autoreload 7344 9960 Watching for file changes with StatReloader
+INFO 2023-09-21 12:09:27,309 autoreload 17260 12476 Watching for file changes with StatReloader
+INFO 2023-09-21 12:09:31,331 basehttp 17260 8028 "GET /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 12:09:41,064 basehttp 17260 8028 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+WARNING 2023-09-21 12:09:55,536 log 17260 8028 Not Found: /media/1
+WARNING 2023-09-21 12:09:55,537 basehttp 17260 8028 "GET /media/1 HTTP/1.1" 404 2645
+INFO 2023-09-21 12:10:12,147 basehttp 17260 8028 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 12:10:27,789 basehttp 17260 8028 "POST /lesson4/good/1 HTTP/1.1" 200 1286
+INFO 2023-09-21 12:11:54,818 basehttp 17260 8028 "GET /lesson4/good/1 HTTP/1.1" 200 1316
+INFO 2023-09-21 12:11:58,693 basehttp 17260 8028 "POST /lesson4/good/1 HTTP/1.1" 200 1316
+INFO 2023-09-21 12:17:45,741 autoreload 17260 12476 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 12:17:46,564 autoreload 8748 10816 Watching for file changes with StatReloader
+INFO 2023-09-21 12:18:42,747 basehttp 8748 16660 "GET /lesson4/good/1 HTTP/1.1" 200 1364
+INFO 2023-09-21 12:19:13,839 autoreload 8748 10816 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 12:19:14,606 autoreload 464 11832 Watching for file changes with StatReloader
+INFO 2023-09-21 12:19:17,156 autoreload 464 11832 C:\DEV\EDU\Django\myproject\lesson4app\views.py changed, reloading.
+INFO 2023-09-21 12:19:18,031 autoreload 4640 436 Watching for file changes with StatReloader
+INFO 2023-09-21 12:19:19,940 basehttp 4640 16552 "GET /lesson4/good/1 HTTP/1.1" 200 1390
+WARNING 2023-09-21 12:19:20,009 log 4640 16552 Not Found: /media/uploads/mercury.png
+WARNING 2023-09-21 12:19:20,009 basehttp 4640 16552 "GET /media/uploads/mercury.png HTTP/1.1" 404 2699
+WARNING 2023-09-21 12:19:41,552 log 4640 16552 Not Found: /media/uploads/mercury.png
+WARNING 2023-09-21 12:19:41,552 basehttp 4640 16552 "GET /media/uploads/mercury.png HTTP/1.1" 404 2699
+WARNING 2023-09-21 12:20:04,219 log 4640 16552 Not Found: /media/uploads/mercury.png
+WARNING 2023-09-21 12:20:04,220 basehttp 4640 16552 "GET /media/uploads/mercury.png HTTP/1.1" 404 2699
+INFO 2023-09-21 12:20:56,660 autoreload 4640 436 C:\DEV\EDU\Django\myproject\lesson4app\urls.py changed, reloading.
+INFO 2023-09-21 12:20:57,384 autoreload 13068 168 Watching for file changes with StatReloader
+INFO 2023-09-21 12:21:07,183 autoreload 13068 168 C:\DEV\EDU\Django\myproject\lesson4app\urls.py changed, reloading.
+INFO 2023-09-21 12:21:07,907 autoreload 1884 5972 Watching for file changes with StatReloader
+INFO 2023-09-21 12:21:13,694 autoreload 1884 5972 C:\DEV\EDU\Django\myproject\lesson4app\urls.py changed, reloading.
+INFO 2023-09-21 12:21:14,378 autoreload 11620 10728 Watching for file changes with StatReloader
+INFO 2023-09-21 12:21:21,283 basehttp 11620 1148 "GET /lesson4/good/1 HTTP/1.1" 200 1390
+WARNING 2023-09-21 12:21:21,317 log 11620 1148 Not Found: /media/uploads/mercury.png
+WARNING 2023-09-21 12:21:21,321 basehttp 11620 1148 "GET /media/uploads/mercury.png HTTP/1.1" 404 2699
+WARNING 2023-09-21 12:21:24,428 log 11620 1148 Not Found: /media/uploads/mercury.png
+WARNING 2023-09-21 12:21:24,429 basehttp 11620 1148 "GET /media/uploads/mercury.png HTTP/1.1" 404 2699
+INFO 2023-09-21 12:21:31,964 autoreload 5012 10496 Watching for file changes with StatReloader
+INFO 2023-09-21 12:21:35,801 basehttp 5012 1164 "GET /lesson4/good/1 HTTP/1.1" 200 1390
+WARNING 2023-09-21 12:21:35,831 log 5012 1164 Not Found: /media/uploads/mercury.png
+WARNING 2023-09-21 12:21:35,839 basehttp 5012 1164 "GET /media/uploads/mercury.png HTTP/1.1" 404 2699
+INFO 2023-09-21 12:25:00,308 autoreload 5012 10496 C:\DEV\EDU\Django\myproject\lesson4app\urls.py changed, reloading.
+INFO 2023-09-21 12:25:01,058 autoreload 18240 15364 Watching for file changes with StatReloader
+INFO 2023-09-21 12:25:04,394 basehttp 18240 13760 "GET /lesson4/good/1 HTTP/1.1" 200 1390
+INFO 2023-09-21 12:25:04,473 basehttp 18240 13760 "GET /media/uploads/mercury.png HTTP/1.1" 200 180694
+INFO 2023-09-21 12:25:14,795 basehttp 18240 13760 "POST /lesson4/good/1 HTTP/1.1" 200 1474
+INFO 2023-09-21 12:25:14,826 basehttp 18240 13760 "GET /media/uploads/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2023-09-06_152506.png HTTP/1.1" 200 16017
+INFO 2023-09-21 12:26:43,341 autoreload 18240 15364 C:\DEV\EDU\Django\myproject\lesson4app\forms.py changed, reloading.
