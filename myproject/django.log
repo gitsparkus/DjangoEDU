@@ -850,3 +850,316 @@ INFO 2023-09-21 12:25:14,795 basehttp 18240 13760 "POST /lesson4/good/1 HTTP/1.1
 INFO 2023-09-21 12:25:14,826 basehttp 18240 13760 "GET /media/uploads/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2023-09-06_152506.png HTTP/1.1" 200 16017
 INFO 2023-09-21 12:26:43,341 autoreload 18240 15364 C:\DEV\EDU\Django\myproject\lesson4app\forms.py changed, reloading.
 INFO 2023-09-21 12:26:44,146 autoreload 16532 5992 Watching for file changes with StatReloader
+INFO 2023-09-25 11:03:38,481 autoreload 2716 1408 Watching for file changes with StatReloader
+INFO 2023-09-25 11:03:40,359 basehttp 2716 7080 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-25 11:03:40,376 basehttp 2716 8988 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 11:03:40,491 basehttp 2716 8988 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-09-25 11:03:40,684 basehttp 2716 8988 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-09-25 11:03:40,688 basehttp 2716 8348 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-09-25 11:03:40,697 basehttp 2716 15012 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-25 11:03:40,702 basehttp 2716 15516 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-09-25 11:03:40,707 basehttp 2716 12572 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-09-25 11:03:40,719 basehttp 2716 8348 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-25 11:03:40,731 basehttp 2716 16908 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+WARNING 2023-09-25 11:03:40,872 log 2716 16908 Not Found: /favicon.ico
+WARNING 2023-09-25 11:03:40,873 basehttp 2716 16908 "GET /favicon.ico HTTP/1.1" 404 2783
+INFO 2023-09-25 11:04:07,492 autoreload 2716 1408 C:\DEV\EDU\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-25 11:04:08,224 autoreload 15408 10108 Watching for file changes with StatReloader
+INFO 2023-09-25 11:15:39,183 autoreload 7864 7880 Watching for file changes with StatReloader
+INFO 2023-09-25 11:15:58,298 autoreload 7864 7880 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:15:58,999 autoreload 7928 12172 Watching for file changes with StatReloader
+INFO 2023-09-25 11:18:40,481 autoreload 7928 12172 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:18:41,226 autoreload 4892 12456 Watching for file changes with StatReloader
+INFO 2023-09-25 11:19:23,352 autoreload 4892 12456 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:19:24,040 autoreload 6316 8504 Watching for file changes with StatReloader
+INFO 2023-09-25 11:21:45,866 autoreload 6316 8504 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:21:46,566 autoreload 7616 16632 Watching for file changes with StatReloader
+INFO 2023-09-25 11:22:02,574 autoreload 7616 16632 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:22:03,237 autoreload 10176 1532 Watching for file changes with StatReloader
+INFO 2023-09-25 11:22:30,822 autoreload 10176 1532 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:22:31,434 autoreload 11444 9172 Watching for file changes with StatReloader
+INFO 2023-09-25 11:23:21,254 autoreload 11444 9172 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:23:21,904 autoreload 8372 17192 Watching for file changes with StatReloader
+INFO 2023-09-25 11:23:30,622 basehttp 8372 11516 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-25 11:24:31,120 basehttp 8372 11516 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-09-25 11:24:35,891 basehttp 8372 11516 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-25 11:24:35,931 basehttp 8372 11516 "GET /admin/ HTTP/1.1" 200 7457
+INFO 2023-09-25 11:24:36,004 basehttp 8372 11516 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-25 11:24:36,019 basehttp 8372 11516 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-25 11:24:36,019 basehttp 8372 7800 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-25 11:24:39,930 basehttp 8372 7800 "GET /admin/lesson5app/order/ HTTP/1.1" 200 9438
+INFO 2023-09-25 11:24:39,969 basehttp 8372 7800 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-25 11:24:39,973 basehttp 8372 11516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:24:40,005 basehttp 8372 7800 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-25 11:24:40,006 basehttp 8372 11516 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-25 11:24:40,009 basehttp 8372 16300 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-25 11:24:40,024 basehttp 8372 7800 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-25 11:24:40,034 basehttp 8372 16068 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-25 11:24:40,036 basehttp 8372 13904 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-25 11:24:40,063 basehttp 8372 7860 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-25 11:24:40,087 basehttp 8372 7860 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-25 11:24:40,100 basehttp 8372 11516 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-25 11:24:40,123 basehttp 8372 11516 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-09-25 11:24:43,529 basehttp 8372 11516 "GET /admin/lesson5app/client/ HTTP/1.1" 200 9855
+INFO 2023-09-25 11:24:43,555 basehttp 8372 11516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:24:43,559 basehttp 8372 7860 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-25 11:24:45,222 basehttp 8372 7860 "GET /admin/lesson5app/client/add/ HTTP/1.1" 200 11304
+INFO 2023-09-25 11:24:45,252 basehttp 8372 13904 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:24:45,256 basehttp 8372 7860 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-09-25 11:24:45,274 basehttp 8372 11516 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-25 11:24:45,280 basehttp 8372 7860 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-09-25 11:24:45,298 basehttp 8372 11516 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-25 11:24:51,337 basehttp 8372 11516 "POST /admin/lesson5app/client/add/ HTTP/1.1" 200 11565
+INFO 2023-09-25 11:24:51,364 basehttp 8372 11516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:24:55,923 basehttp 8372 11516 "POST /admin/lesson5app/client/add/ HTTP/1.1" 200 11572
+INFO 2023-09-25 11:24:55,956 basehttp 8372 11516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:25:01,947 basehttp 8372 11516 "POST /admin/lesson5app/client/add/ HTTP/1.1" 302 0
+INFO 2023-09-25 11:25:01,993 basehttp 8372 11516 "GET /admin/lesson5app/client/ HTTP/1.1" 200 12033
+INFO 2023-09-25 11:25:02,021 basehttp 8372 11516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:25:02,066 basehttp 8372 11516 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-25 11:25:02,078 basehttp 8372 7860 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+ERROR 2023-09-25 11:25:04,838 log 8372 7860 Internal Server Error: /admin/lesson5app/good/add/
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Good
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Good. Check fields/fieldsets/exclude attributes of class GoodAdmin.
+ERROR 2023-09-25 11:25:04,843 basehttp 8372 7860 "GET /admin/lesson5app/good/add/ HTTP/1.1" 500 133749
+INFO 2023-09-25 11:25:19,231 autoreload 8372 17192 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:25:19,956 autoreload 4372 18192 Watching for file changes with StatReloader
+INFO 2023-09-25 11:25:21,453 basehttp 4372 17292 "GET /admin/lesson5app/good/add/ HTTP/1.1" 200 12157
+INFO 2023-09-25 11:25:21,501 basehttp 4372 18328 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:25:21,537 basehttp 4372 17292 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-09-25 11:25:28,192 basehttp 4372 17292 "POST /admin/lesson5app/good/add/ HTTP/1.1" 200 12351
+INFO 2023-09-25 11:25:28,222 basehttp 4372 17292 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:25:30,694 basehttp 4372 17292 "POST /admin/lesson5app/good/add/ HTTP/1.1" 302 0
+INFO 2023-09-25 11:25:30,737 basehttp 4372 17292 "GET /admin/lesson5app/good/ HTTP/1.1" 200 12323
+INFO 2023-09-25 11:25:30,767 basehttp 4372 17292 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:25:34,064 basehttp 4372 17292 "GET /admin/lesson5app/good/1/change/ HTTP/1.1" 200 12479
+INFO 2023-09-25 11:25:34,095 basehttp 4372 17292 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:25:44,866 basehttp 4372 17292 "GET /admin/lesson5app/order/add/ HTTP/1.1" 200 12588
+INFO 2023-09-25 11:25:44,894 basehttp 4372 17292 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:25:44,903 basehttp 4372 18328 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-09-25 11:25:56,533 basehttp 4372 18328 "GET /admin/lesson5app/good/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7332
+INFO 2023-09-25 11:25:56,623 basehttp 4372 18328 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:26:02,621 basehttp 4372 18328 "GET /admin/lesson5app/good/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7332
+INFO 2023-09-25 11:26:02,663 basehttp 4372 18328 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:26:09,917 basehttp 4372 18328 "POST /admin/lesson5app/good/add/?_to_field=id&_popup=1 HTTP/1.1" 200 376
+INFO 2023-09-25 11:26:09,946 basehttp 4372 18328 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+ERROR 2023-09-25 11:26:18,696 log 4372 18328 Internal Server Error: /admin/lesson5app/order/add/
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: lesson5app_order.total
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1798, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1227, in save_model
+    obj.save()
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: lesson5app_order.total
+ERROR 2023-09-25 11:26:18,716 basehttp 4372 18328 "POST /admin/lesson5app/order/add/ HTTP/1.1" 500 191618
+INFO 2023-09-25 11:26:42,219 autoreload 4372 18192 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:26:42,992 autoreload 14512 9516 Watching for file changes with StatReloader
+INFO 2023-09-25 11:26:44,568 basehttp 14512 9244 "GET /admin/lesson5app/order/add/ HTTP/1.1" 200 12706
+INFO 2023-09-25 11:26:44,611 basehttp 14512 9244 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:26:52,763 basehttp 14512 9244 "POST /admin/lesson5app/order/add/ HTTP/1.1" 302 0
+INFO 2023-09-25 11:26:52,800 basehttp 14512 9244 "GET /admin/lesson5app/order/ HTTP/1.1" 200 11677
+INFO 2023-09-25 11:26:52,830 basehttp 14512 9244 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:26:59,154 basehttp 14512 9244 "GET /admin/lesson5app/order/ HTTP/1.1" 200 11459
+INFO 2023-09-25 11:26:59,179 basehttp 14512 9244 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:27:14,730 basehttp 14512 9244 "GET /admin/lesson5app/order/1/change/ HTTP/1.1" 200 12968
+INFO 2023-09-25 11:27:14,761 basehttp 14512 9244 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:29:29,277 autoreload 14512 9516 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:29:30,083 autoreload 1908 12420 Watching for file changes with StatReloader
+INFO 2023-09-25 11:29:33,334 basehttp 1908 13988 "GET /admin/lesson5app/order/ HTTP/1.1" 200 11459
+INFO 2023-09-25 11:29:33,365 basehttp 1908 13988 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-25 11:29:40,499 log 1908 13988 Internal Server Error: /admin/lesson5app/order/1/change/
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (get_good) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (get_good) specified for Order. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+ERROR 2023-09-25 11:29:40,503 basehttp 1908 13988 "GET /admin/lesson5app/order/1/change/ HTTP/1.1" 500 133608
+INFO 2023-09-25 11:30:34,091 autoreload 1908 12420 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:30:34,818 autoreload 10724 6572 Watching for file changes with StatReloader
+ERROR 2023-09-25 11:30:37,262 log 10724 4580 Internal Server Error: /admin/lesson5app/order/1/change/
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (get_good) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+  File "C:\DEV\EDU\Django\venv\lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (get_good) specified for Order. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+ERROR 2023-09-25 11:30:37,268 basehttp 10724 4580 "GET /admin/lesson5app/order/1/change/ HTTP/1.1" 500 133745
+INFO 2023-09-25 11:31:22,059 autoreload 10724 6572 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:31:22,798 autoreload 14800 10436 Watching for file changes with StatReloader
+INFO 2023-09-25 11:31:26,558 basehttp 14800 13876 "GET /admin/lesson5app/order/1/change/ HTTP/1.1" 200 12968
+INFO 2023-09-25 11:31:26,591 basehttp 14800 13876 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:31:28,837 basehttp 14800 13876 "GET /admin/lesson5app/order/ HTTP/1.1" 200 11630
+INFO 2023-09-25 11:31:28,867 basehttp 14800 13876 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:31:31,762 basehttp 14800 13876 "GET /admin/lesson5app/order/1/change/ HTTP/1.1" 200 12968
+INFO 2023-09-25 11:31:31,793 basehttp 14800 13876 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:31:41,572 autoreload 14800 10436 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:31:42,356 autoreload 7296 4996 Watching for file changes with StatReloader
+INFO 2023-09-25 11:32:00,609 basehttp 7296 10556 "GET /admin/lesson5app/order/1/change/ HTTP/1.1" 200 12968
+INFO 2023-09-25 11:32:00,635 basehttp 7296 10556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:32:02,052 basehttp 7296 10556 "GET /admin/lesson5app/client/ HTTP/1.1" 200 11777
+INFO 2023-09-25 11:32:02,084 basehttp 7296 10556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:32:03,355 basehttp 7296 10556 "GET /admin/lesson5app/good/ HTTP/1.1" 200 12439
+INFO 2023-09-25 11:32:03,378 basehttp 7296 10556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:32:03,928 basehttp 7296 10556 "GET /admin/lesson5app/order/ HTTP/1.1" 200 11459
+INFO 2023-09-25 11:32:03,954 basehttp 7296 10556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:32:17,393 basehttp 7296 10556 "GET /admin/lesson5app/client/ HTTP/1.1" 200 11777
+INFO 2023-09-25 11:32:17,422 basehttp 7296 10556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:32:18,574 basehttp 7296 10556 "GET /admin/lesson5app/good/ HTTP/1.1" 200 12439
+INFO 2023-09-25 11:32:18,600 basehttp 7296 10556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:32:19,222 basehttp 7296 10556 "GET /admin/lesson5app/order/ HTTP/1.1" 200 11459
+INFO 2023-09-25 11:32:19,245 basehttp 7296 10556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-25 11:58:57,496 autoreload 7296 4996 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
