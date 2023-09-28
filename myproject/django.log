@@ -1163,3 +1163,4 @@ INFO 2023-09-25 11:32:18,600 basehttp 7296 10556 "GET /admin/jsi18n/ HTTP/1.1" 2
 INFO 2023-09-25 11:32:19,222 basehttp 7296 10556 "GET /admin/lesson5app/order/ HTTP/1.1" 200 11459
 INFO 2023-09-25 11:32:19,245 basehttp 7296 10556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 2023-09-25 11:58:57,496 autoreload 7296 4996 C:\DEV\EDU\Django\myproject\lesson5app\admin.py changed, reloading.
+INFO 2023-09-25 11:58:59,074 autoreload 12560 3468 Watching for file changes with StatReloader
